@@ -1,0 +1,9 @@
+.info {
+  margin : 10rpx;
+  border : solid 1rpx #aaa;
+  padding : 10rpx;
+}
+
+.myimg {
+  width : 500rpx;
+}

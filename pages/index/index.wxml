@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<!-- 小程序的数据绑定 使用{{}}语法 -->
+<view class='info'>
+    <view class='info'>我是一个机器人</view>
+    <view class='info'>{{students[0].name}}</view> 
+    <view class="info">我是一个机器人</view>
+</view>
+<!-- 小程序的列表展示 wx:for -->
+<view wx:for = "{{students}}">{{item.name}}的年龄是{{item.age}}岁</view>
+
+<!-- 小程序的事件监听 -->
+<view>当前计数是{{counter}}</view>
+<button type="primary" bindtap="handleBtnClick">+</button>

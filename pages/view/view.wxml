@@ -1,0 +1,5 @@
+<!--pages/view/view.wxml-->
+<text>pages/view/view.wxml</text>
+<view>{{message}}</view>
+<view>{{age >= 18 ? '成年人': '未成年人'}}</view>
+<view>{{nowTime}}</view>
